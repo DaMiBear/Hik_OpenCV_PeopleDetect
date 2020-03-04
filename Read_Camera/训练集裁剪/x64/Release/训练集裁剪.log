@@ -1,0 +1,8 @@
+﻿  train_main.cpp
+e:\documents\visual studio 2017\vs_2017_project\read_camera\训练集裁剪\train_main.cpp(25): warning C4101: “v”: 未引用的局部变量
+  正在生成代码
+  9 of 427 functions ( 2.1%) were compiled, the rest were copied from previous compilation.
+    4 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  训练集裁剪.vcxproj -> E:\Documents\Visual Studio 2017\VS_2017_Project\Read_Camera\x64\Release\训练集裁剪.exe

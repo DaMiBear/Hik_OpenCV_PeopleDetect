@@ -1,0 +1,10 @@
+﻿  Read_Camera02.cpp
+e:\documents\visual studio 2017\vs_2017_project\read_camera\read_camera02\read_camera02.cpp(266): warning C4244: “=”: 从“double”转换到“DWORD”，可能丢失数据
+e:\documents\visual studio 2017\vs_2017_project\read_camera\read_camera02\read_camera02.cpp(359): warning C4326: “main”的返回类型应为“int”而非“void”
+e:\documents\visual studio 2017\vs_2017_project\read_camera\read_camera02\read_camera02.cpp(418): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+  正在生成代码
+  3 of 479 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    6 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  Read_Camera02.vcxproj -> E:\Documents\Visual Studio 2017\VS_2017_Project\Read_Camera\x64\Release\Read_Camera02.exe

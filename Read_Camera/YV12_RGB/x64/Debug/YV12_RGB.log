@@ -1,0 +1,7 @@
+﻿  YV12_RGB.cpp
+e:\documents\visual studio 2017\vs_2017_project\read_camera\yv12_rgb\yv12_rgb.cpp(181): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“time_t”
+  e:\documents\visual studio 2017\vs_2017_project\read_camera\yv12_rgb\yv12_rgb.cpp(181): note: 请考虑在格式字符串中使用“%lld”
+  e:\documents\visual studio 2017\vs_2017_project\read_camera\yv12_rgb\yv12_rgb.cpp(181): note: 请考虑在格式字符串中使用“%Id”
+  e:\documents\visual studio 2017\vs_2017_project\read_camera\yv12_rgb\yv12_rgb.cpp(181): note: 请考虑在格式字符串中使用“%I64d”
+e:\documents\visual studio 2017\vs_2017_project\read_camera\yv12_rgb\yv12_rgb.cpp(188): warning C4326: “main”的返回类型应为“int”而非“void”
+  YV12_RGB.vcxproj -> E:\Documents\Visual Studio 2017\VS_2017_Project\Read_Camera\x64\Debug\YV12_RGB.exe
