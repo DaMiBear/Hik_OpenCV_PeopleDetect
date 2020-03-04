@@ -1,0 +1,2 @@
+# Hik_OpenCV_PeopleDetect
+基于海康威视网络摄像头和OpenCV的人体识别
