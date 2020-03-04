@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1072</width>
+    <height>633</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="imgLabel">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>10</y>
+      <width>611</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>等待开启。。。</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="outEdit">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>390</y>
+      <width>471</width>
+      <height>171</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ff5500;&quot;&gt;手动控制按钮：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>-100</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ff5500;&quot;&gt;实时界面：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>10</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ff5500;&quot;&gt;检测界面：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>40</y>
+      <width>21</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>370</y>
+      <width>691</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="BackGroundLabel">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>40</y>
+      <width>371</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Pictures/BackGround2.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>560</y>
+      <width>281</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <widget class="QPushButton" name="openButton">
+       <property name="text">
+        <string>Open</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="closeButton">
+       <property name="text">
+        <string>Close</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="L17Button">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>460</y>
+      <width>35</width>
+      <height>47</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="L20Button">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>460</y>
+      <width>35</width>
+      <height>47</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="L18Button">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>460</y>
+      <width>35</width>
+      <height>47</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="L19Button">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>460</y>
+      <width>35</width>
+      <height>47</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="L10Button">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>280</y>
+      <width>35</width>
+      <height>47</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="L9Button">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>280</y>
+      <width>35</width>
+      <height>47</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="L12Button">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>280</y>
+      <width>35</width>
+      <height>47</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="L11Button">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>280</y>
+      <width>35</width>
+      <height>47</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="L5Button">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>183</y>
+      <width>35</width>
+      <height>47</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="L6Button">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>183</y>
+      <width>35</width>
+      <height>47</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="L7Button">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>183</y>
+      <width>35</width>
+      <height>47</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="L8Button">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>183</y>
+      <width>35</width>
+      <height>47</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="L1Button">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>98</y>
+      <width>35</width>
+      <height>47</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="L2Button">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>98</y>
+      <width>35</width>
+      <height>47</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="L3Button">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>98</y>
+      <width>35</width>
+      <height>47</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="L4Button">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>98</y>
+      <width>35</width>
+      <height>47</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="L13Button">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>370</y>
+      <width>35</width>
+      <height>47</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="L14Button">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>370</y>
+      <width>35</width>
+      <height>47</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="L15Button">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>370</y>
+      <width>35</width>
+      <height>47</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="L16Button">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>370</y>
+      <width>35</width>
+      <height>47</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>35</width>
+      <height>47</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>BackGroundLabel</zorder>
+   <zorder>imgLabel</zorder>
+   <zorder>outEdit</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label</zorder>
+   <zorder>label_3</zorder>
+   <zorder>line</zorder>
+   <zorder>line_2</zorder>
+   <zorder>layoutWidget</zorder>
+   <zorder>L8Button</zorder>
+   <zorder>L4Button</zorder>
+   <zorder>L3Button</zorder>
+   <zorder>L2Button</zorder>
+   <zorder>L1Button</zorder>
+   <zorder>L5Button</zorder>
+   <zorder>L6Button</zorder>
+   <zorder>L7Button</zorder>
+   <zorder>L9Button</zorder>
+   <zorder>L10Button</zorder>
+   <zorder>L11Button</zorder>
+   <zorder>L12Button</zorder>
+   <zorder>L13Button</zorder>
+   <zorder>L14Button</zorder>
+   <zorder>L15Button</zorder>
+   <zorder>L16Button</zorder>
+   <zorder>L17Button</zorder>
+   <zorder>L18Button</zorder>
+   <zorder>L19Button</zorder>
+   <zorder>L20Button</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

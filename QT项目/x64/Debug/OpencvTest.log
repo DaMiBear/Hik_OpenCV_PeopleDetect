@@ -1,0 +1,32 @@
+﻿  Moc'ing mainwindow.h...
+  Uic'ing mainwindow.ui...
+  camera.cpp
+  main.cpp
+  mainwindow.cpp
+  processpeople.cpp
+  queue.cpp
+  moc_mainwindow.cpp
+e:\documents\qt\opencvtest\mainwindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 main.cpp)
+e:\documents\qt\opencvtest\mainwindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 mainwindow.cpp)
+e:\documents\qt\opencvtest\mainwindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 .\GeneratedFiles\Debug\moc_mainwindow.cpp)
+e:\documents\qt\opencvtest\queue.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\documents\qt\opencvtest\processpeople.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\documents\qt\opencvtest\camera.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\documents\qt\opencvtest\queue.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 queue.cpp)
+e:\documents\qt\opencvtest\queue.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 camera.cpp)
+e:\documents\qt\opencvtest\camera.cpp(24): warning C4189: “rowptr”: 局部变量已初始化但不引用
+e:\documents\qt\opencvtest\camera.cpp(56): warning C4100: “nReserved2”: 未引用的形参
+e:\documents\qt\opencvtest\camera.cpp(56): warning C4100: “nReserved1”: 未引用的形参
+e:\documents\qt\opencvtest\camera.cpp(56): warning C4100: “nSize”: 未引用的形参
+e:\documents\qt\opencvtest\camera.cpp(56): warning C4100: “nPort”: 未引用的形参
+e:\documents\qt\opencvtest\camera.cpp(100): warning C4100: “pUser”: 未引用的形参
+e:\documents\qt\opencvtest\camera.cpp(100): warning C4100: “lRealHandle”: 未引用的形参
+e:\documents\qt\opencvtest\camera.cpp(181): warning C4100: “pUser”: 未引用的形参
+e:\documents\qt\opencvtest\camera.cpp(181): warning C4100: “lHandle”: 未引用的形参
+e:\documents\qt\opencvtest\camera.cpp(181): warning C4100: “lUserID”: 未引用的形参
+e:\documents\qt\opencvtest\camera.cpp(183): warning C4189: “tempbuf”: 局部变量已初始化但不引用
+e:\documents\qt\opencvtest\camera.cpp(240): warning C4244: “=”: 从“double”转换到“DWORD”，可能丢失数据
+e:\documents\qt\opencvtest\queue.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 processpeople.cpp)
+e:\documents\qt\opencvtest\processpeople.cpp(56): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+e:\documents\qt\opencvtest\queue.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 mainwindow.cpp)
+  OpencvTest.vcxproj -> E:\Documents\QT\OpencvTest\debug\OpencvTest.exe
